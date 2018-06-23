@@ -26,3 +26,14 @@ p{
   padding: 0 15em;
 }
 
+table{
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;   
+}
+th, td{
+  border: 1px solid #222;
+  padding: 1em;  
+}
+
