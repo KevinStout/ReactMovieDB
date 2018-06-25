@@ -2,4 +2,18 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: #222;
+  
+}
+
+table{
+  text-align: center;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;   
+}
+th, td{
+  border: 1px solid black;
+  padding: 1em;  
+
 }
