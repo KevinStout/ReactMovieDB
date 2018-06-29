@@ -16,6 +16,7 @@ class MovieDetail extends Component {
 
   async componentDidMount() {
     try {
+      // eslint-disable-next-line
       const res = await fetch(`https://api.themoviedb.org/3/movie/${this.props.match.params.id}?api_key=72aa4def65493ab3a68956fa3b0073fa&language=en-US`);
       const movie = await res.json();
 
@@ -33,7 +34,7 @@ class MovieDetail extends Component {
       <MovieWrapper backdrop={`${BACKDROP_PATH}${movie.backdrop_path}`} alt={movie.title}>
         <MovieInfo>
           <Link to="/" >
-            <Overdrive id={movie.id} duration="800">
+            <Overdrive id={movie.id} duration={800}>
               <Poster src={`${POSTER_PATH}${movie.poster_path}`} alt={movie.title} />
             </Overdrive>
           </Link>
