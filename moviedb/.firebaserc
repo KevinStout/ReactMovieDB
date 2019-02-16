@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "MovieViewer": "movie-viewer-f42e1",
+    "default": "movie-viewer-f42e1",
+    "moviedb": "moviedb-aec5d"
+  }
+}

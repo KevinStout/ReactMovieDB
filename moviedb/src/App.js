@@ -6,7 +6,7 @@ import {
   Switch,
   Link,
 } from 'react-router-dom';
-import logo from './logo.svg';
+
 import './App.css';
 
 import MoviesList from './MoviesList';
@@ -16,8 +16,8 @@ const App = () => (
   <Router>
     <div className="App">
       <header className="App-header">
-        <Link to="/">
-          <img src={logo} className="App-logo" alt="logo" />
+        <Link to="./">
+          <img src="https://movie-viewer-f42e1.firebaseapp.com/static/media/logo.323b1b0b.svg" className="App-logo" alt="logo" />
         </Link>
       </header>
       <Switch>
